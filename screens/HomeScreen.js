@@ -20,7 +20,16 @@ export default class HomeScreen extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-      
+        <View style={styles.welcomeContainer}>
+          <Image style={styles.welcomeImage}
+            source={require('../assets/images/welcome-image.png')}
+          />
+        </View>
+        <View style={styles.contentContainer}>
+            <Text style={styles.getStartedText}>
+                This is a test text.
+            </Text>
+        </View>
       </View>
     );
   }
@@ -53,10 +62,10 @@ const styles = StyleSheet.create({
     marginBottom: 20,
   },
   welcomeImage: {
-    width: 100,
-    height: 80,
+    width: 180,
+    height: 100,
     resizeMode: 'contain',
-    marginTop: 3,
+    marginTop: 100,
     marginLeft: -10,
   },
   getStartedContainer: {

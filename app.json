@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Workout Tracker",
-    "slug": "WorkoutTracker",
+    "name": "Workout Logger",
+    "slug": "WorkoutLogger",
     "privacy": "public",
     "sdkVersion": "31.0.0",
     "platforms": [
